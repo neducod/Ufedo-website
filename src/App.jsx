@@ -9,6 +9,7 @@ import Hero from './pages/Hero'
 import About from './pages/About'
 import Process from './pages/Process'
 import Slideshow from './pages/Slideshow'
+import TestimonialSection from './pages/Testimonial'
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
           <About/>
           <Process/>
           <Slideshow/>
+          <TestimonialSection/>
         </div>
       </div>
 
