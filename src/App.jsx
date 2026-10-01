@@ -6,6 +6,7 @@ import './App.css'
 
 import HeaderPage from './pages/Header'
 import Hero from './pages/Hero'
+import About from './pages/About'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <div>
         <HeaderPage/>
         <Hero/>
+        <About/>
       </div>
 
 
