@@ -7,6 +7,7 @@ import './App.css'
 import HeaderPage from './pages/Header'
 import Hero from './pages/Hero'
 import About from './pages/About'
+import Process from './pages/Process'
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
           <HeaderPage/>
           <Hero/>
           <About/>
+          <Process/>
         </div>
       </div>
 
