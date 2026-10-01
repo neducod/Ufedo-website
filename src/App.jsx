@@ -8,6 +8,7 @@ import HeaderPage from './pages/Header'
 import Hero from './pages/Hero'
 import About from './pages/About'
 import Process from './pages/Process'
+import Slideshow from './pages/Slideshow'
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
           <Hero/>
           <About/>
           <Process/>
+          <Slideshow/>
         </div>
       </div>
 
