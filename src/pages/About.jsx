@@ -1,16 +1,5 @@
 import React, { useState } from 'react';
-// import { 
-//   Scissors, 
-//   Sparkles, 
-//   Ruler, 
-//   Heart, 
-//   Award, 
-//   Shirt, 
-//   CheckCircle2, 
-//   ArrowRight,
-//   User,
-//   Camera
-// } from 'lucide-react';
+
 
 export default function AtelierShowcase() {
   const [photoType, setPhotoType] = useState('sewing'); // 'sewing' | 'portrait'
@@ -42,25 +31,7 @@ export default function AtelierShowcase() {
   return (
     <div className="min-h-screen bg-[#FAF8F5] text-stone-800 font-sans antialiased selection:bg-amber-200 selection:text-stone-900">
       
-      {/* Navigation Header */}
-      <header className="border-b border-stone-200 bg-stone-50/80 backdrop-blur-md sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <div className="p-2 bg-stone-900 text-amber-100 rounded-full">
-              {/* <Scissors className="w-5 h-5" /> */}
-            </div>
-            <span className="font-serif text-xl tracking-wide text-stone-900 font-semibold">
-              Atelier & Co.
-            </span>
-          </div>
-          <a
-            href="#contact"
-            className="px-5 py-2.5 rounded-full bg-stone-900 text-stone-50 text-sm font-medium hover:bg-amber-900 transition-colors shadow-sm"
-          >
-            Request a Fitting
-          </a>
-        </div>
-      </header>
+    
 
       {/* Main Container */}
       <main className="max-w-7xl mx-auto px-6 py-12 md:py-20 space-y-16">
@@ -196,72 +167,9 @@ export default function AtelierShowcase() {
                 View Collection
               </a>
             </div>
-
-          </div>
-
-        </section>
-
-        {/* 3 STATS SECTION */}
-        <section className="pt-8 border-t border-stone-200">
-          <div className="text-center max-w-xl mx-auto mb-10">
-            <h2 className="font-serif text-2xl text-stone-900 font-normal">Our Craft in Numbers</h2>
-            <p className="text-stone-500 text-sm mt-1">A decade dedicated to perfection, precision, and personal expression.</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-            {stats.map((stat) => (
-              <div
-                key={stat.id}
-                className="group relative bg-white p-8 rounded-2xl border border-stone-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
-              >
-                {/* Background Subtle Accent Glow */}
-                <div className="absolute -right-6 -bottom-6 w-24 h-24 bg-amber-100/50 rounded-full blur-2xl group-hover:bg-amber-200/60 transition-colors" />
-
-                <div className="flex items-center justify-between mb-6">
-                  <div className="p-3 bg-amber-50 rounded-xl border border-amber-200/60 group-hover:scale-110 transition-transform">
-                    {stat.icon}
-                  </div>
-                  <span className="text-xs font-mono text-stone-400 uppercase tracking-widest">
-                    Stat 0{stat.id}
-                  </span>
-                </div>
-
-                <div className="space-y-2">
-                  <div className="font-serif text-4xl sm:text-5xl font-medium text-stone-900 tracking-tight">
-                    {stat.number}
-                  </div>
-                  <div className="text-lg font-medium text-stone-800">
-                    {stat.label}
-                  </div>
-                  <p className="text-xs text-stone-500 leading-relaxed pt-1">
-                    {stat.sublabel}
-                  </p>
-                </div>
-              </div>
-            ))}
           </div>
         </section>
-
-        {/* Decorative Quote / Signature Footer Banner */}
-        <section className="rounded-2xl bg-stone-900 text-stone-100 p-8 sm:p-12 text-center relative overflow-hidden shadow-xl">
-          <div className="relative z-10 max-w-2xl mx-auto space-y-4">
-            {/* <Heart className="w-8 h-8 text-amber-400 mx-auto opacity-80" /> */}
-            <h3 className="font-serif text-2xl sm:text-3xl font-light italic">
-              "To wear a garment made exclusively for you is to wear a piece of art that speaks your name."
-            </h3>
-            <p className="text-xs tracking-widest uppercase text-stone-400 font-medium pt-2">
-              — Master Tailor & Founder
-            </p>
-          </div>
-        </section>
-
       </main>
-
-      {/* Footer */}
-      <footer className="border-t border-stone-200 bg-white py-8 text-center text-xs text-stone-500">
-        <p>© {new Date().getFullYear()} Atelier & Co. All rights reserved. Handcrafted with intention.</p>
-      </footer>
-
     </div>
   );
 }
