@@ -254,19 +254,7 @@ export default function App() {
       </main>
 
       {}
-      <footer className="border-t border-stone-800/80 bg-stone-950 py-12 text-center">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col items-center">
-          <h2 className="font-serif text-2xl tracking-wider text-stone-200">house <span className="text-stone-400 italic">of</span> cb</h2>
-          <p className="text-[10px] tracking-[0.3em] text-stone-500 uppercase mt-1">Designed in London • Est. 2010</p>
-          <div className="flex space-x-6 mt-6 text-xs tracking-widest text-stone-400">
-            <a href="#privacy" className="hover:text-white transition-colors">Privacy</a>
-            <a href="#terms" className="hover:text-white transition-colors">Terms</a>
-            <a href="#stores" className="hover:text-white transition-colors">Boutiques</a>
-            <a href="#contact" className="hover:text-white transition-colors">Contact</a>
-          </div>
-          <p className="text-[11px] text-stone-600 mt-8">© 2026 House of CB. All Rights Reserved.</p>
-        </div>
-      </footer>
+      
     </div>
   );
 }
