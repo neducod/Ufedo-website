@@ -13,6 +13,8 @@ import TestimonialSection from './pages/Testimonial'
 import Socials from './pages/Socials'
 import Footer from './pages/Footer'
 
+import WhatsAppButton from './components/Whatsapp'
+
 function App() {
 
   return (
@@ -48,6 +50,7 @@ function App() {
           <Socials/>
           <Footer/>
         </div>
+        <WhatsAppButton/>
       </div>
 
     </>
