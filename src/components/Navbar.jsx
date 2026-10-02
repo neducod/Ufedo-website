@@ -55,10 +55,10 @@ export default function App() {
           {/* Center: Brand Logo */}
           <div className="absolute left-1/2 transform -translate-x-1/2 text-center cursor-pointer">
             <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl tracking-tight text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] font-normal">
-              house <span className="text-stone-300 text-2xl md:text-3xl font-light italic px-0.5">of</span> cb
+              ufe <span className="text-stone-300 text-2xl md:text-3xl font-light italic px-0.5">DO</span> ra
             </h1>
             <p className="text-[9px] md:text-[10px] tracking-[0.45em] text-stone-300 uppercase mt-1.5 font-medium drop-shadow-md">
-              Designed in London
+              Designed in Kaduna
             </p>
           </div>
 

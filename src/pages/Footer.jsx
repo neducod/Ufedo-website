@@ -1,22 +1,8 @@
 import React, { useState } from 'react';
-// import { 
-//   FaFacebookF, 
-//   FaInstagram, 
-//   FaLinkedinIn, 
-//   FaSpotify 
-// } from 'react-icons/fa';
+
 
 export default function App() {
-//   const [email, setEmail] = useState('');
-//   const [subscribed, setSubscribed] = useState(false);
 
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     if (email.trim()) {
-//       setSubscribed(true);
-//       setEmail('');
-//     }
-//   };
 
   return (
     <div className="min-h-screen bg-[#3e2b24] text-[#f4efe6] flex flex-col justify-between font-serif selection:bg-[#f4efe6] selection:text-[#3e2b24]">
