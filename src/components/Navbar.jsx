@@ -217,41 +217,7 @@ export default function App() {
       )}
 
       {}
-      <main className="flex-grow max-w-7xl mx-auto px-6 py-12 w-full">
-        <div className="text-center mb-12">
-          <span className="text-xs tracking-[0.3em] uppercase text-amber-500 font-semibold">Autumn / Winter Collection</span>
-          <h2 className="font-serif text-3xl md:text-4xl tracking-wide mt-2 text-stone-100">The London Atelier Edit</h2>
-          <div className="w-16 h-px bg-amber-600/60 mx-auto mt-4"></div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {[
-            { title: "Satin & Silk Corsetry", subtitle: "Sculpted silhouettes & signature boning", tag: "NEW ARRIVAL" },
-            { title: "Evening Gowns", subtitle: "Floor-sweeping dramatic drapery", tag: "BESTSELLER" },
-            { title: "Tailored Separates", subtitle: "Impeccable fits designed in London", tag: "LIMITED" }
-          ].map((item, idx) => (
-            <div 
-              key={idx}
-              className="group relative h-[420px] rounded-lg overflow-hidden bg-stone-900 border border-stone-800 flex flex-col justify-end p-8 shadow-xl transition-transform duration-500 hover:-translate-y-1 cursor-pointer"
-            >
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent z-0 group-hover:scale-105 transition-transform duration-700"></div>
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-amber-900/20 via-transparent to-transparent opacity-60"></div>
-
-              <div className="relative z-10">
-                <span className="text-[10px] tracking-[0.3em] uppercase font-bold text-amber-400 bg-amber-950/60 px-2.5 py-1 rounded border border-amber-800/40 inline-block mb-3">
-                  {item.tag}
-                </span>
-                <h3 className="font-serif text-2xl text-stone-100 mb-1 tracking-wide">{item.title}</h3>
-                <p className="text-xs text-stone-400 tracking-wider mb-6">{item.subtitle}</p>
-                
-                <button className="w-full py-3 bg-white/10 hover:bg-white text-white hover:text-stone-950 text-xs tracking-[0.25em] font-semibold uppercase rounded transition-all duration-300 backdrop-blur-sm border border-white/20">
-                  Explore Collection
-                </button>
-              </div>
-            </div>
-          ))}
-        </div>
-      </main>
+      
 
       {}
       
