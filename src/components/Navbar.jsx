@@ -18,19 +18,15 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
-    <div className="min-h-screen bg-stone-950 text-stone-100 font-sans flex flex-col selection:bg-amber-900 selection:text-white">
+    <div className=" text-stone-100 font-sans flex flex-col selection:bg-amber-900 selection:text-white">
       {}
       <header className="relative w-full h-[360px] md:h-[420px] overflow-hidden flex flex-col justify-between border-b border-stone-800/60 shadow-2xl">
         {/* Luxury Draped Silk / Velvet Background with lighting gradients */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#4a1c1d]/90 via-[#331112]/95 to-[#1a0808] z-0">
-          {/* Vertical velvet curtain folds simulation */}
-          <div className="absolute inset-0 opacity-40 mix-blend-overlay bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-600/30 via-transparent to-black/85 pointer-events-none"></div>
           
-          {/* Dynamic soft light sheen */}
-          <div className="absolute top-0 left-1/4 w-96 h-full bg-gradient-to-r from-transparent via-amber-200/10 to-transparent skew-x-12 blur-2xl pointer-events-none"></div>
-          <div className="absolute top-0 right-1/3 w-80 h-full bg-gradient-to-r from-transparent via-rose-300/10 to-transparent -skew-x-12 blur-3xl pointer-events-none"></div>
+        <div className="absolute top-0 left-1/4 w-96 h-full bg-gradient-to-r from-transparent via-amber-200/10 to-transparent skew-x-12 blur-2xl pointer-events-none"></div>
+        <div className="absolute top-0 right-1/3 w-80 h-full bg-gradient-to-r from-transparent via-rose-300/10 to-transparent -skew-x-12 blur-3xl pointer-events-none"></div>
 
-          {/* Vertical shadow lines representing velvet drapes */}
           <div className="absolute inset-0 flex justify-around opacity-25 pointer-events-none">
             <div className="w-px h-full bg-gradient-to-b from-black/60 via-transparent to-black/80 shadow-2xl"></div>
             <div className="w-px h-full bg-gradient-to-b from-black/85 via-transparent to-black/60 shadow-2xl"></div>
@@ -40,10 +36,7 @@ export default function App() {
           </div>
         </div>
 
-        {/* Top Announcement Bar */}
-        <div className="relative z-20 bg-black/40 backdrop-blur-md text-stone-300 text-[11px] tracking-[0.25em] py-2 text-center border-b border-white/5 uppercase font-medium">
-          Worldwide Express Shipping & Complimentary London Returns
-        </div>
+        
 
         {/* Main Header Navigation Bar */}
         <div className="relative z-20 max-w-7xl w-full mx-auto px-6 py-5 flex items-center justify-between">
@@ -128,10 +121,6 @@ export default function App() {
           ))}
         </nav>
       </header>
-
-      
-
-      
     </div>
   );
 }
