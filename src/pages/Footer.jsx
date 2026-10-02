@@ -80,7 +80,6 @@ export default function App() {
 
         
 
-        {/* Sparkle decorative elements */}
         <div className="relative w-full max-w-md flex justify-center items-center">
           <span className="absolute -left-12 -top-2 text-xl font-handwriting opacity-80 animate-pulse">✦</span>
           <span className="absolute -right-12 -bottom-2 text-xl font-handwriting opacity-80 animate-pulse">✦</span>
@@ -92,12 +91,12 @@ export default function App() {
         
         {/* Column 1: Studio World */}
         <div className="flex flex-col items-center md:items-start space-y-2.5">
-          <h3 className="italic tracking-wider text-xs uppercase opacity-70 mb-2">studio world</h3>
-          <a href="#buy-machine" className="italic hover:opacity-100 opacity-80 transition-opacity">buy machine</a>
-          <a href="#buy-goods" className="italic hover:opacity-100 opacity-80 transition-opacity">buy goods</a>
-          <a href="#our-story" className="italic hover:opacity-100 opacity-80 transition-opacity">our story</a>
-          <a href="#our-craft" className="italic hover:opacity-100 opacity-80 transition-opacity">our craft</a>
-          <a href="#find-us" className="italic hover:opacity-100 opacity-80 transition-opacity">find us</a>
+          <h3 className="italic tracking-wider text-xs uppercase opacity-70 mb-2">ufedora's</h3>
+          <a href="#buy-machine" className="italic hover:opacity-100 opacity-80 transition-opacity">world</a>
+          <a href="#buy-goods" className="italic hover:opacity-100 opacity-80 transition-opacity">excellence</a>
+          <a href="#our-story" className="italic hover:opacity-100 opacity-80 transition-opacity">at</a>
+          <a href="#our-craft" className="italic hover:opacity-100 opacity-80 transition-opacity">it's</a>
+          <a href="#find-us" className="italic hover:opacity-100 opacity-80 transition-opacity">finest</a>
         </div>
 
         {/* Column 2: Connect / Socials */}
@@ -121,12 +120,12 @@ export default function App() {
 
         {/* Column 3: Help */}
         <div className="flex flex-col items-center md:items-end space-y-2.5 text-center md:text-right">
-          <h3 className="italic tracking-wider text-xs uppercase opacity-70 mb-2">help</h3>
-          <a href="#faq" className="italic hover:opacity-100 opacity-80 transition-opacity">faq</a>
-          <a href="#contact" className="italic hover:opacity-100 opacity-80 transition-opacity">contact</a>
-          <a href="#shipping" className="italic hover:opacity-100 opacity-80 transition-opacity">shipping & return</a>
-          <a href="#wholesale" className="italic hover:opacity-100 opacity-80 transition-opacity">wholesale</a>
-          <a href="#referral" className="italic hover:opacity-100 opacity-80 transition-opacity">referral for 10%</a>
+          <h3 className="italic tracking-wider text-xs uppercase opacity-70 mb-2">we</h3>
+          <a href="#faq" className="italic hover:opacity-100 opacity-80 transition-opacity">are</a>
+          <a href="#contact" className="italic hover:opacity-100 opacity-80 transition-opacity">open</a>
+          <a href="#shipping" className="italic hover:opacity-100 opacity-80 transition-opacity">24 hours</a>
+          <a href="#wholesale" className="italic hover:opacity-100 opacity-80 transition-opacity">everyday</a>
+          {/* <a href="#referral" className="italic hover:opacity-100 opacity-80 transition-opacity">referral for 10%</a> */}
         </div>
       </footer>
     </div>
