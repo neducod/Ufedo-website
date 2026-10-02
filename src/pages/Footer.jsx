@@ -78,38 +78,12 @@ export default function App() {
           we sew like we stitch: <span className="font-normal">creatively</span>
         </h1>
 
-        <p className="text-sm font-serif tracking-widest uppercase opacity-80 mb-10 text-center">
-          sign up for 5% off your first order
-        </p>
+        
 
         {/* Sparkle decorative elements */}
         <div className="relative w-full max-w-md flex justify-center items-center">
           <span className="absolute -left-12 -top-2 text-xl font-handwriting opacity-80 animate-pulse">✦</span>
           <span className="absolute -right-12 -bottom-2 text-xl font-handwriting opacity-80 animate-pulse">✦</span>
-
-          {/* Newsletter Form */}
-           {/* {subscribed ? (
-            <div className="bg-[#f4efe6] text-[#3e2b24] px-8 py-3.5 rounded-none text-center font-serif italic text-sm tracking-wide w-full shadow-md animate-fade-in">
-              thank you for joining our sewing circle! check your inbox for 5% off.
-            </div>
-           ) : (  */}
-            {/* <form onSubmit={handleSubmit} className="flex w-full bg-[#f4efe6] text-[#3e2b24] shadow-lg">
-              <input 
-                type="email" 
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="e-mail" 
-                className="flex-1 bg-transparent px-5 py-3.5 text-sm font-serif italic outline-none placeholder:text-[#3e2b24]/50 text-[#3e2b24]"
-              />
-              <button 
-                type="submit"
-                className="px-6 py-3.5 text-xs uppercase tracking-widest font-serif hover:bg-[#e6dfd3] transition-colors cursor-pointer text-[#3e2b24]"
-              >
-                subscribe
-              </button>
-            </form> */}
-          
         </div>
       </div>
 
