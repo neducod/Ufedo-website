@@ -1,15 +1,5 @@
 import React, { useState } from 'react';
-// import { Search, User, Heart, ShoppingBag, Menu, X, ChevronDown } from 'lucide-react';
 
-// const NAVIGATION_ITEMS = [
-//     { name: 'NEW', hasSub: true },
-//     { name: 'CLOTHING', hasSub: true },
-//     { name: 'DRESSES', hasSub: true },
-//     { name: 'CORSETS', hasSub: true },
-//     { name: 'SHOES', hasSub: true },
-//     { name: 'ACCESSORIES', hasSub: false },
-//     { name: 'SALE', hasSub: false, highlight: true }
-//   ];
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,7 +38,6 @@ export default function App() {
               className="flex items-center space-x-2 text-stone-200 hover:text-white transition-all group cursor-pointer"
               aria-label="Open Menu"
             >
-              {/* <Menu className="w-4 h-4 text-stone-300 group-hover:scale-110 transition-transform" /> */}
               <span className="text-xs font-semibold tracking-[0.25em]">MENU</span>
             </button>
 
@@ -59,7 +48,6 @@ export default function App() {
               className="flex items-center space-x-2 text-stone-200 hover:text-white transition-all group cursor-pointer"
               aria-label="Search"
             >
-              {/* <Search className="w-4 h-4 text-stone-300 group-hover:scale-110 transition-transform" /> */}
               <span className="text-xs font-semibold tracking-[0.25em] hidden sm:inline">SEARCH</span>
             </button>
           </div>
@@ -77,14 +65,12 @@ export default function App() {
           {/* Right Side: Sign In, Wishlist, Bag */}
           <div className="flex items-center space-x-4 md:space-x-6 text-xs tracking-[0.2em]">
             <a href="#signin" className="hidden lg:flex items-center space-x-2 text-stone-200 hover:text-white transition-colors group">
-              {/* <User className="w-4 h-4 text-stone-300 group-hover:scale-110 transition-transform" /> */}
               <span className="font-semibold">SIGN IN</span>
             </a>
 
             <span className="hidden lg:inline text-stone-600 font-light">|</span>
 
             <a href="#wishlist" className="flex items-center space-x-2 text-stone-200 hover:text-white transition-colors group">
-              {/* <Heart className="w-4 h-4 text-stone-300 group-hover:scale-110 transition-transform" /> */}
               <span className="font-semibold hidden sm:inline">WISHLIST</span>
               <span className="bg-amber-900/80 text-white rounded-full w-4 h-4 flex items-center justify-center text-[9px] font-bold">2</span>
             </a>
@@ -95,30 +81,12 @@ export default function App() {
               onClick={() => console.log("Bag clicked")}
               className="flex items-center space-x-2 text-stone-200 hover:text-white transition-colors group cursor-pointer"
             >
-              {/* <ShoppingBag className="w-4 h-4 text-stone-300 group-hover:scale-110 transition-transform" /> */}
               <span className="font-semibold hidden sm:inline">BAG</span>
               <span className="bg-white text-stone-950 rounded-full w-4 h-4 flex items-center justify-center text-[9px] font-bold">0</span>
             </button>
           </div>
         </div>
 
-        {/* <nav className="relative z-20 max-w-5xl mx-auto hidden md:flex items-center justify-center space-x-8 pb-4">
-          {NAVIGATION_ITEMS.map((item) => (
-            <button
-              key={item.name}
-              onClick={() => setActiveTab(item.name)}
-              className={`text-xs tracking-[0.25em] font-medium transition-all pb-1 border-b-2 cursor-pointer ${
-                activeTab === item.name 
-                  ? 'border-white text-white font-semibold' 
-                  : item.highlight 
-                    ? 'border-transparent text-rose-300 hover:text-rose-200' 
-                    : 'border-transparent text-stone-300 hover:text-white'
-              }`}
-            >
-              {item.name}
-            </button>
-          ))}
-        </nav> */}
       </header>
     </div>
   );
