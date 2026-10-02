@@ -3,6 +3,42 @@ import React, { useState, useEffect } from 'react';
 
 
 
+const navItems = [
+    { label: "", href: "#hero", id: "hero" },
+    { label: "Collection", href: "#collections", id: "collection" },
+    { label: "Campaign", href: "#campaign", id: "campaign" },
+    { label: "Editorial", href: "#editorial", id: "editorial" },
+    { label: "Runway", href: "#runway", id: "runway" },
+    { label: "Story", href: "#story", id: "story" },
+    { label: "Contact", href: "#contact", id: "contact" },
+  ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

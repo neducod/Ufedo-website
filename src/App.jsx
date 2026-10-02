@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 
+import Navbar from './components/Navbar'
 import HeaderPage from './pages/Header'
 import Hero from './pages/Hero'
 import About from './pages/About'
@@ -19,9 +20,10 @@ function App() {
 
   return (
     <>
-     <div className="min-h-screen bg-[#FAF8F5] text-stone-800 font-sans antialiased selection:bg-amber-200 selection:text-stone-900">
+     <div className="">
         <div>
           <HeaderPage/>
+          <Navbar/>
           <Hero/>
           <About/>
           <Process/>
