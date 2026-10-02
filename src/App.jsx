@@ -4,7 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 
-// import Navbar from './components/Navbar'
+import Navbar from './components/Navbar'
 import HeaderPage from './pages/Header'
 import Hero from './pages/Hero'
 import About from './pages/About'
@@ -23,7 +23,7 @@ function App() {
      <div className="">
         <div>
           <HeaderPage/>
-          {/* <Navbar/> */}
+          <Navbar/> 
           <Hero/>
           <About/>
           <Process/>
