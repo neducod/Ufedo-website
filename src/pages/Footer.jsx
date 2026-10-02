@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
-import { 
-  FaFacebookF, 
-  FaInstagram, 
-  FaLinkedinIn, 
-  FaSpotify 
-} from 'react-icons/fa';
+// import { 
+//   FaFacebookF, 
+//   FaInstagram, 
+//   FaLinkedinIn, 
+//   FaSpotify 
+// } from 'react-icons/fa';
 
 export default function App() {
-  const [email, setEmail] = useState('');
-  const [subscribed, setSubscribed] = useState(false);
+//   const [email, setEmail] = useState('');
+//   const [subscribed, setSubscribed] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (email.trim()) {
-      setSubscribed(true);
-      setEmail('');
-    }
-  };
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     if (email.trim()) {
+//       setSubscribed(true);
+//       setEmail('');
+//     }
+//   };
 
   return (
     <div className="min-h-screen bg-[#3e2b24] text-[#f4efe6] flex flex-col justify-between font-serif selection:bg-[#f4efe6] selection:text-[#3e2b24]">
@@ -102,12 +102,12 @@ export default function App() {
           <span className="absolute -right-12 -bottom-2 text-xl font-handwriting opacity-80 animate-pulse">✦</span>
 
           {/* Newsletter Form */}
-          {subscribed ? (
+           {/* {subscribed ? (
             <div className="bg-[#f4efe6] text-[#3e2b24] px-8 py-3.5 rounded-none text-center font-serif italic text-sm tracking-wide w-full shadow-md animate-fade-in">
               thank you for joining our sewing circle! check your inbox for 5% off.
             </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="flex w-full bg-[#f4efe6] text-[#3e2b24] shadow-lg">
+           ) : (  */}
+            {/* <form onSubmit={handleSubmit} className="flex w-full bg-[#f4efe6] text-[#3e2b24] shadow-lg">
               <input 
                 type="email" 
                 required
@@ -122,8 +122,8 @@ export default function App() {
               >
                 subscribe
               </button>
-            </form>
-          )}
+            </form> */}
+          
         </div>
       </div>
 
@@ -144,18 +144,18 @@ export default function App() {
         <div className="flex flex-col items-center justify-start space-y-4">
           <h3 className="italic tracking-wider text-xs uppercase opacity-70 mb-1">connect</h3>
           <div className="flex items-center space-x-5">
-            <a href="#facebook" aria-label="Facebook" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
-              <FaFacebookF size={13} />
-            </a>
-            <a href="#instagram" aria-label="Instagram" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
-              <FaInstagram size={14} />
-            </a>
-            <a href="#linkedin" aria-label="LinkedIn" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
-              <FaLinkedinIn size={13} />
-            </a>
-            <a href="#spotify" aria-label="Spotify" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
-              <FaSpotify size={14} />
-            </a>
+                <a href="#facebook" aria-label="Facebook" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
+                {/* <FaFacebookF size={13} /> */}
+                </a>
+                <a href="#instagram" aria-label="Instagram" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
+                {/* <FaInstagram size={14} /> */}
+                </a>
+                <a href="#linkedin" aria-label="LinkedIn" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
+                {/* <FaLinkedinIn size={13} /> */}
+                </a>
+                <a href="#spotify" aria-label="Spotify" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
+                {/* <FaSpotify size={14} /> */}
+                </a>
           </div>
         </div>
 
