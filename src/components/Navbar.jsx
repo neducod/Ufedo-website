@@ -1,3 +1,15 @@
+import React, { useState, useEffect } from 'react';
+
+
+
+
+
+
+
+
+
+
+
 <div>
           <header className="border-b border-stone-200 bg-stone-50/80 backdrop-blur-md sticky top-0 z-50">
               <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
