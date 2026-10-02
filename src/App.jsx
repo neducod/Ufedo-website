@@ -10,6 +10,7 @@ import About from './pages/About'
 import Process from './pages/Process'
 import Slideshow from './pages/Slideshow'
 import TestimonialSection from './pages/Testimonial'
+import Socials from './pages/Socials'
 import Footer from './pages/Footer'
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
           <Process/>
           <Slideshow/>
           <TestimonialSection/>
+          <Socials/>
           <Footer/>
         </div>
       </div>
