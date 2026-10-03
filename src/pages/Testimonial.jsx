@@ -3,11 +3,11 @@ import React from 'react';
 export default function SewingTestimonialSection() {
   const reviews = [
     {
-      text: "“This computerized machine changed my crafting. I can now program intricate embroidery patterns that I never thought possible. At first I was struggling...",
-      author: "Sarah L."
+      text: "“Finding Ufedora is so rare. I showed her a picture of a blouse I liked on Instagram, and she replicated the exact style to the last detail. No story, no delays, and the fit was 10/10.",
+      author: "Tola L."
     },
     {
-      text: "“It has revolutionized my custom clothing business drastically. I highly recommend it to anyone who's sewing from home and needs precision and speed...\"",
+      text: "“I brought three yards of Senator material to sew for my cousin's introduction, and he delivered in less than five days. The neck design was sharp, the trousers fit perfectly without needing any adjustments, and the finishing inside was super neat. He is officially my go-to guy in Lagos\"",
       author: "Ben J."
     },
     {
