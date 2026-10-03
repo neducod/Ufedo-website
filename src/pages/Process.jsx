@@ -5,29 +5,29 @@ import { Database, Layout, ShieldCheck, Zap } from "lucide-react";
 const steps = [
   {
     id: "01",
-    title: "Discovery & Planning",
-    description: "We analyze your requirements and blueprint the core architecture layout, matching your structural framework.",
+    title: "Consultation",
+    description: "Tell us what you have in mind.",
     icon: Layout,
     align: "left", // Positioned on the left side of the spine
   },
   {
     id: "02",
-    title: "Modular Development",
-    description: "Building components incrementally with scalable React patterns and utility-first Tailwind CSS styling.",
+    title: "Measure",
+    description: "We'll take your measurements and discuss fabric/design.",
     icon: Database,
     align: "right", // Positioned on the right side of the spine
   },
   {
     id: "03",
-    title: "Rigorous Testing",
-    description: "Executing automated testing matrices to verify responsiveness, performance, and error-free edge cases.",
+    title: "Creation",
+    description: "Your piece is cut and carefully sewn.",
     icon: ShieldCheck,
     align: "left",
   },
   {
     id: "04",
-    title: "Deployment & Scale",
-    description: "Pushing production builds to edge networks with continuous integration and continuous delivery pipelines.",
+    title: "Fitting & Collection",
+    description: "Final fitting, adjustments and collection..",
     icon: Zap,
     align: "right",
   },
