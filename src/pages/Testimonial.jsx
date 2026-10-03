@@ -17,8 +17,8 @@ export default function SewingTestimonialSection() {
   ];
 
   return (
-    <div className="bg-slate-950 min-h-screen flex items-center justify-center p-4">
-      {/* Main Container Card */}
+    <div className=" min-h-screen flex items-center justify-center p-4">
+      {/* Main Container Card bg-slate-950 */}
       <div className="relative w-full max-w-5xl bg-[#f0f0f2] rounded-3xl overflow-hidden shadow-2xl flex flex-col justify-between p-8 md:p-14 text-slate-900">
         
         {/* Right Side Image Area (Sewing Machine Mockup / Photo) */}
@@ -46,13 +46,13 @@ export default function SewingTestimonialSection() {
 
           {/* Heading */}
           <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight leading-[1.15] mb-6">
-            Tailors sew beautiful creations.
+            Tailor that sew beautiful creations.
           </h2>
 
           {/* See all reviews button */}
-          <button className="bg-white hover:bg-slate-50 text-slate-900 font-medium px-5 py-2.5 rounded-full shadow-sm border border-slate-200 text-sm transition-all">
+          {/* <button className="bg-white hover:bg-slate-50 text-slate-900 font-medium px-5 py-2.5 rounded-full shadow-sm border border-slate-200 text-sm transition-all">
             See all reviews
-          </button>
+          </button> */}
         </div>
 
         {/* Bottom Review Cards Container */}
