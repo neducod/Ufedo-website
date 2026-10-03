@@ -45,11 +45,11 @@ export default function ScrollTimeline() {
   return (
     <div className="min-h-screen  text-slate-100 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center mb-16">
-        <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-white">
-          Interactive Process Workflow
+        <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-black">
+          How to get Yours
         </h2>
         <p className="mt-4 text-slate-400">
-          Scroll down to watch the dynamic path trace your journey through each milestone.
+          Here is the step by step process on how to get your very own Ufedora's piece
         </p>
       </div>
 
