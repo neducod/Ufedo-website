@@ -7,12 +7,12 @@ export default function SewingTestimonialSection() {
       author: "Tola L."
     },
     {
-      text: "“I brought three yards of Senator material to sew for my cousin's introduction, and he delivered in less than five days. The neck design was sharp, the trousers fit perfectly without needing any adjustments, and the finishing inside was super neat. He is officially my go-to guy in Lagos\"",
-      author: "Ben J."
+      text: "“I brought three yards of clothing material to sew for my cousin's introduction, and she delivered in less than five days. The neck design was sharp, the blouse fit perfectly without needing any adjustments, and the finishing inside was super neat. Ufedora is officially the best\"",
+      author: "Blessing J."
     },
     {
-      text: "“Very appreciative of how smooth the feed system is. The stitches are flawless. The machine is great because it handles heavy denim and delicate silk effortlessly...\"",
-      author: "Chloe T."
+      text: "“She made a tailored female pant suit and two corset Ankara tops for me. The fitting on the waist was snatching without feeling tight. Excellent work\"",
+      author: "Julia T."
     }
   ];
 
