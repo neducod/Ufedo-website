@@ -3,7 +3,7 @@ import React from 'react';
 export default function SewingTestimonialSection() {
   const reviews = [
     {
-      text: "“This computerized machine changed my crafting. I can now program intricate embroidery patterns that I never thought possible. At first I was struggling/...",
+      text: "“This computerized machine changed my crafting. I can now program intricate embroidery patterns that I never thought possible. At first I was struggling...",
       author: "Sarah L."
     },
     {
@@ -33,26 +33,20 @@ export default function SewingTestimonialSection() {
           </div>
         </div>
 
-        {/* Top Content Area */}
         <div className="relative z-10 max-w-lg mb-24 md:mb-32">
-          {/* Star Rating & Score */}
           <div className="flex items-center gap-2 mb-4">
             <div className="flex text-amber-500 text-sm">
               {"★".repeat(5)}
             </div>
             <span className="font-semibold text-sm">5.0</span>
             <span className="text-slate-500 text-sm">(26)</span>
-          </div>
+          </div> 
 
           {/* Heading */}
           <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight leading-[1.15] mb-6">
             Tailor that sew beautiful creations.
           </h2>
 
-          {/* See all reviews button */}
-          {/* <button className="bg-white hover:bg-slate-50 text-slate-900 font-medium px-5 py-2.5 rounded-full shadow-sm border border-slate-200 text-sm transition-all">
-            See all reviews
-          </button> */}
         </div>
 
         {/* Bottom Review Cards Container */}
@@ -70,13 +64,12 @@ export default function SewingTestimonialSection() {
                 </p>
               </div>
 
-              {/* Footer of Card */}
               <div className="flex items-center justify-between text-xs pt-4 border-t border-slate-100">
                 <span className="text-slate-500 font-medium">{review.author}</span>
-                <a href="#read-all" className="font-semibold text-slate-900 hover:underline">
+                {/* <a href="#read-all" className="font-semibold text-slate-900 hover:underline">
                   Read all
-                </a>
-              </div>
+                </a> */}
+              </div> 
             </div>
           ))}
         </div>
