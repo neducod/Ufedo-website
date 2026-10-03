@@ -60,12 +60,13 @@ export default function ImageGallery() {
 
       {/* Header Section */}
       <div className="text-center mb-10 px-4">
-        <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-3">
-          Continuous Image Gallery
+        {/*  font-extrabold tracking-tight bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent */}
+        <h1 className="text-3xl md:text-5xl mb-3 text-black font-extrabold tracking-tight">
+          Welcome to my fashion gallery
         </h1>
-        <p className="text-slate-400 text-sm md:text-base max-w-md mx-auto">
+        {/* <p className="text-slate-400 text-sm md:text-base max-w-md mx-auto">
           Hover over any row to pause the slideshow.
-        </p>
+        </p> */}
       </div>
 
       {/* Gallery Container with 3 Rows */}
