@@ -53,10 +53,7 @@ export default function TestimonialSection() {
             People put their phone down.
           </h2>
 
-          {/* See all reviews button */}
-          <button className="bg-white hover:bg-slate-100 text-slate-900 font-medium px-5 py-2.5 rounded-full shadow-sm border border-slate-200 text-sm transition-all">
-            See all reviews
-          </button>
+          
         </div>
 
         {/* Bottom Review Cards Container */}

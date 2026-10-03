@@ -11,7 +11,7 @@ import About from './pages/About'
 import Process from './pages/Process'
 import Slideshow from './pages/Slideshow'
 import TestimonialSection from './pages/Testimonial'
-import Socials from './pages/Socials'
+// import Socials from './pages/Socials'
 import Footer from './pages/Footer'
 
 import WhatsAppButton from './components/Whatsapp'
@@ -29,7 +29,7 @@ function App() {
           <Process/>
           <Slideshow/>
           <TestimonialSection/>
-          <Socials/>
+          {/* <Socials/> */}
           <Footer/>
         </div>
         <WhatsAppButton/>

@@ -81,8 +81,8 @@ export default function App() {
         
 
         <div className="relative w-full max-w-md flex justify-center items-center">
-          <span className="absolute -left-12 -top-2 text-xl font-handwriting opacity-80 animate-pulse">✦</span>
-          <span className="absolute -right-12 -bottom-2 text-xl font-handwriting opacity-80 animate-pulse">✦</span>
+          <span className="absolute -left-12 -top-2 text-xl font-handwriting opacity-80 animate-pulse">✄</span>
+          <span className="absolute -right-12 -bottom-2 text-xl font-handwriting opacity-80 animate-pulse">✄</span>
         </div>
       </div>
 
