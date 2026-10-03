@@ -34,13 +34,13 @@ export default function SewingTestimonialSection() {
         </div>
 
         <div className="relative z-10 max-w-lg mb-24 md:mb-32">
-          <div className="flex items-center gap-2 mb-4">
+          {/* <div className="flex items-center gap-2 mb-4">
             <div className="flex text-amber-500 text-sm">
               {"★".repeat(5)}
             </div>
             <span className="font-semibold text-sm">5.0</span>
-            <span className="text-slate-500 text-sm">(26)</span>
-          </div> 
+            <span className="text-slate-500 text-sm">(3)</span>
+          </div>  */}
 
           {/* Heading */}
           <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight leading-[1.15] mb-6">
