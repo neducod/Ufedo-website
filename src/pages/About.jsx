@@ -154,7 +154,7 @@ export default function AtelierShowcase() {
             {/* Action Buttons */}
             <div className="flex flex-wrap items-center gap-4 pt-2">
               <a
-                href="#contact"
+                href="https://wa.me/2348001234567?text=Hi%20LUMEN%2C%20I%27d%20like%20to%20ask%20about..."  target='_blank'
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-stone-900 text-stone-50 hover:bg-amber-900 transition-all duration-300 font-medium text-sm shadow-md hover:shadow-lg group"
               >
                 <span>Book Custom Fitting</span>
