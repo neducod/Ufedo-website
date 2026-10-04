@@ -161,7 +161,7 @@ export default function AtelierShowcase() {
                 {/* <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" /> */}
               </a>
               <a
-                href="#portfolio"
+                href="#slideshow"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-white text-stone-800 border border-stone-300 hover:bg-stone-100 transition-all duration-300 font-medium text-sm"
               >
                 View Collection

@@ -27,7 +27,7 @@ export default function ImageGallery() {
   ];
 
   return (
-    <div className="bg-white text-white min-h-screen flex flex-col justify-center items-center py-12 overflow-x-hidden">
+    <div className="bg-white text-white min-h-screen flex flex-col justify-center items-center py-12 overflow-x-hidden" id='slideshow'>
       
       {/* Inline styles for keyframe animations */}
       <style>{`
