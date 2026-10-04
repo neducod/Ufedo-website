@@ -68,7 +68,7 @@ export default function AtelierShowcase() {
               <div className="absolute top-4 left-4 right-4 flex justify-between items-center z-10">
                 <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-stone-900/70 backdrop-blur-md text-stone-100 text-xs font-medium uppercase tracking-widest border border-white/20">
                   {/* <Sparkles className="w-3.5 h-3.5 text-amber-300" /> */}
-                  {photoType === 'sewing' ? 'In the Studio' : 'Craftswoman Portrait'}
+                  {photoType === 'sewing' ? 'In the Studio' : 'Blessing Ufedo'}
                 </span>
 
                 {/* Photo Toggle Controls */}
