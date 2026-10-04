@@ -116,7 +116,7 @@ export default function AtelierShowcase() {
             <div className="space-y-4">
               <div className="inline-flex items-center gap-2 text-amber-800 font-medium text-sm tracking-widest uppercase">
                 <span className="w-8 h-[1px] bg-amber-800"></span>
-                The Atelier Story
+                Ufedora's Corner
               </div>
               
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-stone-900 font-normal leading-[1.15] tracking-tight">
@@ -129,7 +129,7 @@ export default function AtelierShowcase() {
                 Every garment is carefully designed, cut and sewn with attention to fit, detail and individuality.
               </p>
               <p className="text-stone-600 text-base leading-relaxed">
-                From initial sketch to final fitting, we honor traditional couture methods while shaping contemporary silhouettes designed to be cherished for a lifetime.
+                From initial sketch to final fitting, I honor traditional couture methods while shaping contemporary silhouettes designed to be cherished for a lifetime.
               </p>
             </div>
 
@@ -146,7 +146,7 @@ export default function AtelierShowcase() {
                 {/* <CheckCircle2 className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" /> */}
                 <div>
                   <h4 className="text-sm font-semibold text-stone-900">Artisanal Craft</h4>
-                  <p className="text-xs text-stone-500">Hand-finished seams & luxury fabrics</p>
+                  <p className="text-xs text-stone-500">Hand-finished seams & fabrics</p>
                 </div>
               </div>
             </div>
