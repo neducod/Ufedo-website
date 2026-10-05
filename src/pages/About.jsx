@@ -164,7 +164,7 @@ export default function AtelierShowcase() {
                 href="#slideshow"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-white text-stone-800 border border-stone-300 hover:bg-stone-100 transition-all duration-300 font-medium text-sm"
               >
-                View Collection
+                View my wardrope
               </a>
             </div>
           </div>
