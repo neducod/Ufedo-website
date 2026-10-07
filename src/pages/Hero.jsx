@@ -52,14 +52,14 @@ export default function VintagePhotoGallery() {
       <div className="w-full max-w-5xl bg-[#d4bc96] shadow-2xl rounded-sm p-6 sm:p-12 border border-[#b89d75] relative flex flex-col items-center">
         
         {/* Handwritten Style Header */}
-        <div className="text-center mb-8 tracking-wider">
+        {/* <div className="text-center mb-8 tracking-wider">
           <h1 className="font-serif italic text-xl sm:text-2xl text-stone-800 font-semibold drop-shadow-[0.5px_0.5px_0px_rgba(0,0,0,0.3)]">
             GENI' VIEW GARMENT DISTRICT
           </h1>
           <h2 className="font-serif italic text-lg sm:text-xl text-stone-800 font-medium tracking-widest mt-1 drop-shadow-[0.5px_0.5px_0px_rgba(0,0,0,0.3)]">
             MIDTOWN MANHATTAN
           </h2>
-        </div>
+        </div> */}
 
         {/* Photos Grid Container */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 w-full">
