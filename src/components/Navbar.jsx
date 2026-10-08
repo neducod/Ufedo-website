@@ -38,7 +38,7 @@ export default function App() {
               className="flex items-center space-x-2 text-stone-200 hover:text-white transition-all group cursor-pointer"
               aria-label="Open Menu"
             >
-              <span className="text-xs font-semibold tracking-[0.25em]">MENU</span>
+              {/* <span className="text-xs font-semibold tracking-[0.25em]">MENU</span> */}
             </button>
 
             <span className="text-stone-600 font-light">|</span>
@@ -48,7 +48,7 @@ export default function App() {
               className="flex items-center space-x-2 text-stone-200 hover:text-white transition-all group cursor-pointer"
               aria-label="Search"
             >
-              <span className="text-xs font-semibold tracking-[0.25em] hidden sm:inline">SEARCH</span>
+              {/* <span className="text-xs font-semibold tracking-[0.25em] hidden sm:inline">SEARCH</span> */}
             </button>
           </div>
 
@@ -65,14 +65,14 @@ export default function App() {
           {/* Right Side: Sign In, Wishlist, Bag */}
           <div className="flex items-center space-x-4 md:space-x-6 text-xs tracking-[0.2em]">
             <a href="#signin" className="hidden lg:flex items-center space-x-2 text-stone-200 hover:text-white transition-colors group">
-              <span className="font-semibold">SIGN IN</span>
+              {/* <span className="font-semibold">SIGN IN</span> */}
             </a>
 
             <span className="hidden lg:inline text-stone-600 font-light">|</span>
 
             <a href="#wishlist" className="flex items-center space-x-2 text-stone-200 hover:text-white transition-colors group">
-              <span className="font-semibold hidden sm:inline">WISHLIST</span>
-              <span className="bg-amber-900/80 text-white rounded-full w-4 h-4 flex items-center justify-center text-[9px] font-bold">2</span>
+              {/* <span className="font-semibold hidden sm:inline">WISHLIST</span> */}
+              {/* <span className="bg-amber-900/80 text-white rounded-full w-4 h-4 flex items-center justify-center text-[9px] font-bold">2</span> */}
             </a>
 
             <span className="text-stone-600 font-light">|</span>
@@ -81,8 +81,8 @@ export default function App() {
               onClick={() => console.log("Bag clicked")}
               className="flex items-center space-x-2 text-stone-200 hover:text-white transition-colors group cursor-pointer"
             >
-              <span className="font-semibold hidden sm:inline">BAG</span>
-              <span className="bg-white text-stone-950 rounded-full w-4 h-4 flex items-center justify-center text-[9px] font-bold">0</span>
+              {/* <span className="font-semibold hidden sm:inline">BAG</span> */}
+              {/* <span className="bg-white text-stone-950 rounded-full w-4 h-4 flex items-center justify-center text-[9px] font-bold">0</span> */}
             </button>
           </div>
         </div>
