@@ -44,7 +44,7 @@ export default function ScrollTimeline() {
   });
 
   return (
-    <div className="min-h-screen  text-slate-100 py-20 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-[#c8b18f]   text-slate-100 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center mb-16">
         <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-black">
           How to get Yours
@@ -87,10 +87,10 @@ export default function ScrollTimeline() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="w-[calc(50%-3rem)] bg-slate-900/80 backdrop-blur-md border border-slate-800 p-6 rounded-2xl shadow-xl hover:border-indigo-500/50 transition-all duration-300 group"
+                  className="w-[calc(50%-3rem)] bg-[#d4bc96]     backdrop-blur-md border border-slate-800 p-6 rounded-2xl shadow-xl hover:border-indigo-500/50 transition-all duration-300 group"
                 >
                   <div className="flex items-center space-x-4 mb-3">
-                    <div className="p-3 bg-indigo-500/10 text-indigo-400 rounded-xl group-hover:bg-indigo-500 group-hover:text-white transition-colors duration-300">
+                    <div className="p-3  bg-indigo-500/10  text-indigo-400 rounded-xl group-hover:bg-indigo-500 group-hover:text-white transition-colors duration-300">
                       <IconComponent className="w-6 h-6" />
                     </div>
                     <span className="text-xs font-semibold tracking-wider text-indigo-400 uppercase">
