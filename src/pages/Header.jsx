@@ -6,7 +6,7 @@ export default function AnnouncementBanner() {
       <p className="font-serif text-sm tracking-wide text-[#70293d]">
         New arrivals every Sunday.{' '}
         <a
-          href="#"
+          href="https://www.tiktok.com/@blessingdav845?lang=en-GB"
           className="underline underline-offset-4 hover:opacity-80 transition-opacity"
         >
           Get what’s new.
