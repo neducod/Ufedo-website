@@ -95,7 +95,7 @@ export default function App() {
         {/* Column 1: Studio World */}
         <div className="flex flex-col items-center md:items-start space-y-2.5">
           <h3 className="italic tracking-wider text-xs uppercase opacity-70 mb-2">ufedora's</h3>
-          <a href="#buy-machine" className="italic hover:opacity-100 opacity-80 transition-opacity">world</a>
+          <a href="#buy-machine" className="italic hover:opacity-100 opacity-80 transition-opacity">world.</a>
           <a href="#buy-goods" className="italic hover:opacity-100 opacity-80 transition-opacity">excellence</a>
           <a href="#our-story" className="italic hover:opacity-100 opacity-80 transition-opacity">at</a>
           <a href="#our-craft" className="italic hover:opacity-100 opacity-80 transition-opacity">it's</a>
@@ -118,9 +118,7 @@ export default function App() {
                 <FaWhatsapp />
                 {/* <FaLinkedinIn size={13} /> */}
                 </a>
-                <a href="#spotify" aria-label="Spotify" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
-                {/* <FaSpotify size={14} /> */}
-                </a>
+                
           </div>
         </div>
 
