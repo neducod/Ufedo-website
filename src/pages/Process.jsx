@@ -44,7 +44,8 @@ export default function ScrollTimeline() {
   });
 
   return (
-    <div className="min-h-screen bg-[#FAF8F5] text-slate-100 py-20 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-[#f8e3e6]   text-slate-100 py-20 px-4 sm:px-6 lg:px-8">
+      {/* bg-[#FAF8F5] */}
       <div className="max-w-4xl mx-auto text-center mb-16">
         <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-black">
           How to get Yours
