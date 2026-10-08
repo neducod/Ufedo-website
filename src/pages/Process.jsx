@@ -65,7 +65,7 @@ export default function ScrollTimeline() {
           {/* This inner bar scales height from 0% to 100% based on user scroll */}
           <motion.div
             style={{ scaleY: scrollYProgress }}
-            className="absolute top-0 left-0 right-0 bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 rounded-full origin-top h-full shadow-[0_0_15px_rgba(168,85,247,0.7)]"
+            className="absolute top-0 left-0 right-0 bg-gradient-to-b from-indigo-400 via-purple-200 to-pink-300 rounded-full origin-top h-full shadow-[0_0_15px_rgba(168,85,247,0.7)]"
           />
         </div>
 
