@@ -94,7 +94,7 @@ export default function ScrollTimeline() {
                     <div className="p-3  bg-indigo-500/10  text-indigo-400 rounded-xl group-hover:bg-indigo-500 group-hover:text-white transition-colors duration-300">
                       <IconComponent className="w-6 h-6" />
                     </div>
-                    <span className="text-xs font-semibold tracking-wider text-indigo-400 uppercase">
+                    <span className="text-xs font-semibold tracking-wider text-indigo-600 uppercase">
                       Phase {step.id}
                     </span>
                   </div>
@@ -112,10 +112,10 @@ export default function ScrollTimeline() {
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
                     viewport={{ once: true }}
-                    className="w-6 h-6 rounded-full bg-slate-900 border-4 border-indigo-500 shadow-[0_0_10px_rgba(99,102,241,0.5)] z-20"
+                    className="w-6 h-6 rounded-full bg-slate-400 border-4 border-red-400 shadow-[0_0_10px_rgba(99,102,241,0.5)] z-20"
                   />
                   {/* Horizontal connector line linking the box to the center spine */}
-                  <div className={`absolute w-12 h-0.5 bg-slate-700 ${
+                  <div className={`absolute w-12 h-0.5 bg-slate-500 ${
                     isLeft ? "right-3" : "left-3"
                   }`} />
                 </div>
