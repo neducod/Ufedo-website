@@ -1,34 +1,35 @@
 import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
-import { Database, Layout, ShieldCheck, Zap } from "lucide-react";
+import { Ribbon, CalendarDays, Scissors, Heart } from "lucide-react";
+
 
 const steps = [
   {
     id: "01",
     title: "Consultation",
     description: "Tell us what you have in mind.",
-    icon: Layout,
+    icon: CalendarDays,
     align: "left", // Positioned on the left side of the spine
   },
   {
     id: "02",
     title: "Measure",
     description: "We'll take your measurements and discuss fabric/design.",
-    icon: Database,
+    icon: Ribbon,
     align: "right", // Positioned on the right side of the spine
   },
   {
     id: "03",
     title: "Creation",
     description: "Your piece is cut and carefully sewn.",
-    icon: ShieldCheck,
+    icon: Scissors,
     align: "left",
   },
   {
     id: "04",
     title: "Fitting & Collection",
     description: "Final fitting, adjustments and collection..",
-    icon: Zap,
+    icon: Heart,
     align: "right",
   },
 ];
