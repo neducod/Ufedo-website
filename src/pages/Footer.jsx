@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import { FaBeer } from "react-icons/fa";
+
+import { FaInstagram } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa6";
 
 export default function App() {
 
@@ -104,14 +107,16 @@ export default function App() {
           <h3 className="italic tracking-wider text-xs uppercase opacity-70 mb-1">connect</h3>
           <div className="flex items-center space-x-5">
                 <a href="#facebook" aria-label="Facebook" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
+                <FaTiktok />
                 {/* <FaFacebookF size={13} /> */}
                 </a>
                 <a href="#instagram" aria-label="Instagram" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
+                <FaInstagram />
                 {/* <FaInstagram size={14} /> */}
                 </a>
                 <a href="#linkedin" aria-label="LinkedIn" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
+                <FaWhatsapp />
                 {/* <FaLinkedinIn size={13} /> */}
-                <FaBeer />
                 </a>
                 <a href="#spotify" aria-label="Spotify" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
                 {/* <FaSpotify size={14} /> */}
