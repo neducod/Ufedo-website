@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { FaBeer } from "react-icons/fa";
 
 export default function App() {
 
@@ -111,6 +111,7 @@ export default function App() {
                 </a>
                 <a href="#linkedin" aria-label="LinkedIn" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
                 {/* <FaLinkedinIn size={13} /> */}
+                <FaBeer />
                 </a>
                 <a href="#spotify" aria-label="Spotify" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
                 {/* <FaSpotify size={14} /> */}
