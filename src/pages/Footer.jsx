@@ -111,11 +111,9 @@ export default function App() {
                 </a>
                 <a href="https://www.instagram.com/bd2213546/" aria-label="Instagram" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
                 <FaInstagram />
-                {/* <FaInstagram size={14} /> */}
                 </a>
-                <a href="#linkedin" aria-label="LinkedIn" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
+                <a href="https://wa.me/2348001234567?text=Hi%20LUMEN%2C%20I%27d%20like%20to%20ask%20about..." aria-label="LinkedIn" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
                 <FaWhatsapp />
-                {/* <FaLinkedinIn size={13} /> */}
                 </a>
                 
           </div>
