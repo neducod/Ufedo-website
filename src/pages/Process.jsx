@@ -98,7 +98,7 @@ export default function ScrollTimeline() {
                       Phase {step.id}
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-2">
+                  <h3 className="text-xl font-bold text-black mb-2">
                     {step.title}
                   </h3>
                   <p className="text-black text-sm leading-relaxed">
