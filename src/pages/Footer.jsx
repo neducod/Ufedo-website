@@ -106,9 +106,8 @@ export default function App() {
         <div className="flex flex-col items-center justify-start space-y-4">
           <h3 className="italic tracking-wider text-xs uppercase opacity-70 mb-1">connect</h3>
           <div className="flex items-center space-x-5">
-                <a href="#facebook" aria-label="Facebook" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
+                <a href="https://www.tiktok.com/@blessingdav845?lang=en-GB" aria-label="Facebook" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
                 <FaTiktok />
-                {/* <FaFacebookF size={13} /> */}
                 </a>
                 <a href="#instagram" aria-label="Instagram" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
                 <FaInstagram />
