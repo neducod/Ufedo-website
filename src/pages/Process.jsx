@@ -44,13 +44,13 @@ export default function ScrollTimeline() {
   });
 
   return (
-    <div className="min-h-screen bg-[#f8e3e6]   text-slate-100 py-20 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-[#d4bc96] text-slate-100 py-20 px-4 sm:px-6 lg:px-8">
       {/* bg-[#FAF8F5] */}
       <div className="max-w-4xl mx-auto text-center mb-16">
         <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-black">
           How to get Yours
         </h2>
-        <p className="mt-4 text-slate-400">
+        <p className="mt-4 text-slate-800">
           Here is the step by step process on how to get your very own Ufedora's piece
         </p>
       </div>
@@ -88,7 +88,7 @@ export default function ScrollTimeline() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="w-[calc(50%-3rem)] bg-[#d4bc96]     backdrop-blur-md border border-slate-800 p-6 rounded-2xl shadow-xl hover:border-indigo-500/50 transition-all duration-300 group"
+                  className="w-[calc(50%-3rem)] bg-[#f8e3e6]   backdrop-blur-md border border-slate-800 p-6 rounded-2xl shadow-xl hover:border-indigo-500/50 transition-all duration-300 group"
                 >
                   <div className="flex items-center space-x-4 mb-3">
                     <div className="p-3  bg-indigo-500/10  text-indigo-400 rounded-xl group-hover:bg-indigo-500 group-hover:text-white transition-colors duration-300">
