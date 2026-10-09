@@ -109,7 +109,7 @@ export default function App() {
                 <a href="https://www.tiktok.com/@blessingdav845?lang=en-GB" aria-label="Facebook" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
                 <FaTiktok />
                 </a>
-                <a href="#instagram" aria-label="Instagram" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
+                <a href="https://www.instagram.com/bd2213546/" aria-label="Instagram" className="w-9 h-9 rounded-full border border-[#f4efe6]/30 flex items-center justify-center hover:bg-[#f4efe6] hover:text-[#3e2b24] transition-all">
                 <FaInstagram />
                 {/* <FaInstagram size={14} /> */}
                 </a>
