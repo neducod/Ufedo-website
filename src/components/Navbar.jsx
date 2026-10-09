@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className=" text-stone-100 font-sans flex flex-col selection:bg-amber-900 selection:text-white bg-[#3e2b24]">
       {}
-      <header className="relative w-full h-[50px] md:h-[60px] overflow-hidden flex flex-col justify-between border-b border-stone-800/60 shadow-2xl">
+      <header className="relative w-full h-[50px] md:h-[80px] overflow-hidden flex flex-col justify-between border-b border-stone-800/60 shadow-2xl">
         {/* Luxury Draped Silk / Velvet Background with lighting gradients */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#4a1c1d]/90 via-[#331112]/95 to-[#1a0808] z-0">
           
@@ -41,7 +41,7 @@ export default function App() {
               {/* <span className="text-xs font-semibold tracking-[0.25em]">MENU</span> */}
             </button>
 
-            <span className="text-stone-600 font-light">|</span>
+             <span className="text-stone-600 font-light">|</span> 
 
             <button 
               onClick={() => setIsSearchOpen(true)}
